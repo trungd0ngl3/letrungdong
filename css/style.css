@@ -40,6 +40,21 @@ li {
     color: white;
 }
 
+.header a:hover {
+    opacity: 0.8;
+}
+
+/* main */
+.main .container .poster-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .movie .list-title {
+    margin-left: 50px;
+}
+
+
 /* footer */
 
 .footer {
@@ -73,16 +88,27 @@ a {
     text-decoration: none;
 }
 
+
+
+
+
+
 /* about.html */
 
-.main .info {
-    display: flex;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    background-color: #2b2b2b;
-    width: 300px;
+
+.main .container h3 {
     text-align: center;
-    border-radius: 5px;
-    padding: 40px 0;
+    padding: 10px;
+}
+
+
+.main .info-img {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.main .info {
+    text-align: center;
+    padding: 30px;
 }
