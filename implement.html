@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Implement</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="font/fontawesome-free-6.4.2-web/css/all.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-navbar">
+        <ul class="navbar-left">
+          <li>
+            <a href="index.html" class="logo">
+              <i class="fa-solid fa-film" style="color: #880000ed"></i>
+            </a>
+          </li>
+          <li>
+            <a href="index.html">back to home page</a>
+          </li>
+        </ul>
+        <ul class="navbar-right">
+          <li><a href="requirement.html">requirement</a></li>
+          <li><a href="design.html">design</a></li>
+          <li><a href="implement.html">implement</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <div class="container">
+        <h3>IMPLEMENT</h3>
+        <div class="management">
+          <form action="action.php" id="form">
+            <label for="tenphim">Ten phim:</label>
+            <input
+              type="text"
+              id="movieName"
+              placeholder="tenPhim"
+              class="input"
+            />
+            <label for="rated">Rated:</label>
+            <input type="text" id="rated" placeholder="rated" class="input" />
+            <label for="thoiluong">Thoi luong:</label>
+            <input
+              type="text"
+              id="runningTime"
+              placeholder="thoiLuong"
+              class="input"
+            />
+          </form>
+          <div class="function">
+            <button id="add" onclick="addRow()">Them</button>
+            <button id="change" onclick="deleteRow()">Sua</button>
+            <button id="remove">Xoa</button>
+            <button id="find">Tim kiem</button>
+          </div>
+        </div>
+
+        <table id="display">
+          <tr>
+            <th>STT</th>
+            <th>Ten Phim</th>
+            <th>Rated</th>
+            <th>Thoi luong</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="script/script.js"></script>
+  </body>
+</html>
