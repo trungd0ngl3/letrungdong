@@ -31,7 +31,7 @@
       <div class="container">
         <h3>IMPLEMENT</h3>
         <div class="management">
-          <form action="action.php" id="form">
+          <div class="add">
             <label for="tenphim">Ten phim:</label>
             <input
               type="text"
@@ -48,13 +48,21 @@
               placeholder="thoiLuong"
               class="input"
             />
-          </form>
-          <div class="function">
-            <button id="add" onclick="addRow()">Them</button>
-            <button id="change" onclick="deleteRow()">Sua</button>
-            <button id="remove">Xoa</button>
-            <button id="find">Tim kiem</button>
+            <br />
+            <button class="button" id="add" onclick="add()">Them</button>
           </div>
+          <div class="find">
+            <label for="find">Find movie:</label>
+            <input type="text" placeholder="input movie name" /><button
+              class="input"
+              id="find"
+              onclick="find()"
+            >
+              Tim kiem
+            </button>
+          </div>
+
+          <div class="function"></div>
         </div>
 
         <table id="display">
@@ -63,6 +71,17 @@
             <th>Ten Phim</th>
             <th>Rated</th>
             <th>Thoi luong</th>
+            <th>Function</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Openheimer</td>
+            <td>18+</td>
+            <td>180p</td>
+            <td>
+              <button class="button">edit</button>
+              <button class="button">remove</button>
+            </td>
           </tr>
         </table>
       </div>

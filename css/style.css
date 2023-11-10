@@ -216,22 +216,29 @@ body {
     padding-top: 20px;
 }
 
-.main .container form label,
+.main .container label,
 .input {
     padding: 10px 20px;
 }
 
-.main .container form input {
+.main .container input {
+    padding: 10px;
     border-radius: 5px;
     width: 300px;
+}
+
+.add,
+.find {
+    margin: 30px;
+    text-align: center;
 }
 
 .main .container .function {
     text-align: center;
 }
 
-.main .container .function button {
-    margin: 50px 20px;
+.main .container button {
+    margin: 10px;
     width: 120px;
     padding: 10px;
     border-radius: 5px;
