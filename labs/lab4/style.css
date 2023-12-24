@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eeeeee;
+}
+
+.top-area {
+    background-color: #ffffff;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.header-left {
+    color: #42adff;
+}
+
+.option-list {
+    display: flex;
+    list-style: none;
+
+}
+
+.option {
+    padding: 10px;
+    margin: 0 10px
+}
+
+.option a {
+    text-decoration: none;
+    color: #595959;
+    font-size: 16px;
+}
+
+.option a:hover {
+    color: #FF545A;
+}
+
+.main {
+    background-color: #eeeeee;
+}
+
+.main .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.function {
+    background-color: #42adff;
+    width: 300px;
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.function-icon {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.function-icon a:hover {
+    text-shadow: 3px 3px #363636;
+}
+
+.function-instruction {
+    color: white;
+}
+
+.function-button {
+    text-align: center;
+}
+
+
+.function-button .button {
+    width: 150px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 20px 65px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #42adff;
+}
+
+.function-button .button:hover,
+.button-link:hover {
+    background-color: #425869;
+    color: white;
+}
+
+/* ////////////////////////////////// */
+#insert .container,
+#update .container {
+    justify-content: space-around;
+}
+
+#insert .content-left {
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+}
+
+#update .content-left {
+    background-image: url(img/img2.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+}
+
+#insert .content-right,
+#update .content-right {
+    padding: 50px;
+}
+
+#insert .content-right h5,
+#update .content-right h5 {
+    text-align: center;
+}
+
+#insert .content-right input,
+#update .content-right input {
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#insert .content-right .submit-button,
+#update .content-right .submit-button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#insert .content-right .submit-button a,
+#update .content-right .submit-button a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    background-color: #42adff;
+    border-radius: 10px;
+}
+
+#insert .content-right .submit-button a:hover,
+#update .content-right .submit-button a:hover {
+    background-color: #29a2ff;
+}
+
+/* //////////////////////////// */
+#remove .content,
+#find .content {
+    margin: 40px;
+    text-align: center;
+}
+
+#remove .content h3,
+#find .content h3 {
+    margin-bottom: 20px;
+}
+
+#remove input,
+#find input {
+    width: 300px;
+    padding: 10px;
+}
+
+#remove .remove-button,
+#find .find-button {
+    padding: 8px 10px;
+    margin-left: 10px;
+    background-color: #29a2ff;
+}
+
+#remove .remove a,
+#find .find a {
+    text-decoration: none;
+    color: white;
+}
+
+#remove .remove-button:hover,
+#find .find-button:hover {
+    background-color: #13456b;
+}
+
+#remove .msg,
+#find .msg {
+    margin: 20px;
+}
