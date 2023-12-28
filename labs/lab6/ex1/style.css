@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #393939;
+}
+
+.top-area .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+    padding: 0 60px;
+}
+
+.top-area .header .brand {
+    font-size: 30px;
+}
+
+.top-area .header .option-list {
+    list-style: none;
+    display: flex;
+
+}
+
+.top-area .header .option {
+    padding: 35px;
+
+}
+
+.top-area .header a {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    color: #63D2FF;
+}
+
+.top-area a:hover {
+    text-shadow: 2px 1px #224369;
+}
+
+.main .container {
+    background-image: url(/letrungdong/labs/lab6/img/background/ex1-background.png);
+    background-size: cover;
+    width: 100%;
+    height: 660px;
+}
+
+.main .content {
+    width: 70%;
+    color: rgb(210, 210, 210);
+    text-align: center;
+    padding: 180px 0;
+    text-shadow: 2px 2px #012f464c;
+}
+
+.main .content h3 {
+    font-size: 35px;
+}
+
+.main .content p {
+    padding: 50px 100px;
+}
+
+.main .content .contact-us {
+    text-align: center;
+    width: 150px;
+    transform: translate(400px, 0%);
+}
+
+
+.main .content a {
+    text-shadow: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: #44c8fc;
+    padding: 10px 20px;
+}
+
+.main .content a:hover {
+    color: #44c8fc;
+    background-color: #2b343e;
+}
+
+.footer {
+    color: #787878;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    height: 100px
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer li {
+    padding: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #787878;
+}
+
+.footer .design {
+    padding: 20px;
+}
+
+.footer a:hover {
+    /* color: #44c8fc; */
+    text-shadow: 2px 2px #06394d;
+    border-radius: 2px;
+}
+
+
+.design-container {
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+
+
+.design-container a {
+    padding: 10px 40px;
+    background-color: #44c8fc;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 2px 2px #2b343e;
+    margin: 30px;
+    text-decoration: none;
+}
+
+.design-container a:hover {
+    color: #44c8fc;
+    background-color: #224369;
+    box-shadow: 5px 5px #2b343e;
+}

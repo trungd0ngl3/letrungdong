@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #dbdbdb;
+}
+
+.top-area {
+    background-color: white;
+}
+
+.top-area .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    box-shadow: 1px 1px #0707072a;
+}
+
+.header .header-left {
+    margin: 20px;
+}
+
+.header .header-right ul {
+    display: flex;
+    list-style: none;
+}
+
+.header .header-right li {
+    padding: 20px;
+}
+
+.header .header-right a {
+    text-decoration: none;
+    color: #6c6c6c;
+}
+
+.header .header-right a:hover {
+    color: #3b3b3b;
+}
+
+.main .container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.main .exercise {
+    background-color: rgb(255, 118, 118);
+    width: 300px;
+    padding: 50px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 1px 1px #6c6c6c;
+}
+
+.main .exercise:hover {
+    box-shadow: 3px 3px #6c6c6c;
+}
+
+.main .exercise .icon {
+    color: white;
+    font-size: 40px;
+}
+
+.main .exercise .icon:hover {
+    color: #dbdbdb;
+}
+
+.main .exercise p {
+    margin: 10px;
+}
+
+.main .exercise button a {
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+.main .exercise button {
+    padding: 5px 20px;
+    background-color: #dbdbdb;
+    font-size: 16px;
+}
+
+.main .exercise button:hover {
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

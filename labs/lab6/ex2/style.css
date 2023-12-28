@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #393939;
+}
+
+/* top-area */
+.top-area .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    padding: 0 60px;
+}
+
+.top-area .header .brand {
+    font-size: 30px;
+}
+
+.top-area .header .option-list {
+    list-style: none;
+    display: flex;
+
+}
+
+.top-area .header .option {
+    padding: 35px;
+
+}
+
+.top-area .header a {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    color: #63D2FF;
+}
+
+.top-area a:hover {
+    text-shadow: 2px 1px #224369;
+}
+
+/* main */
+.main .container {
+    background-image: url(/letrungdong/labs/lab6/img/background/ex2-background.png);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.main .container .login-form {
+    float: right;
+    width: 350px;
+    background-color: #e0e0e0;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 90px;
+    box-shadow: 1px 1px 5px #06394d;
+}
+
+/*  */
+.login-form h5 {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.login-form p {
+    margin: 20px;
+}
+
+.login-form .phone-number {
+    padding: 10px 50px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+.login-form .next-button {
+    padding: 10px 40px;
+    margin: 30px;
+    color: white;
+    background-color: #44c8fc;
+    border: none;
+}
+
+.login-form .next-button:hover {
+    background-color: #224369;
+    color: #63D2FF;
+}
+
+/*  */
+.car-brands {
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    padding: 30px;
+}
+
+.car-brands img {
+    width: 150px;
+}
+
+.car-brands .logo {
+    display: flex;
+    align-items: center;
+}
+
+.brand-container {
+    margin: 30px;
+}
+
+/* footer */
+.footer {
+    color: #787878;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    height: 100px
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer li {
+    padding: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #787878;
+}
+
+.footer .design {
+    padding: 20px;
+}
+
+.footer a:hover {
+    /* color: #44c8fc; */
+    text-shadow: 2px 2px #06394d;
+    border-radius: 2px;
+}
+
+/* design */
+.design-container {
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+.design-container a {
+    padding: 10px 40px;
+    background-color: #44c8fc;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 2px 2px #2b343e;
+    margin: 30px;
+    text-decoration: none;
+}
+
+.design-container a:hover {
+    color: #44c8fc;
+    background-color: #224369;
+    box-shadow: 5px 5px #2b343e;
+}
