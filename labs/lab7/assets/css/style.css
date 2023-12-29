@@ -6,3 +6,90 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* //////////
+    TOP AREA
+/////////// */
+
+.top-area {
+    background-image: url(/letrungdong/labs/lab7/assets/images/welcome-hero/banner.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 700px;
+}
+
+/* header */
+.top-area .background-img {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+span {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.top-area {
+    color: white;
+}
+
+.top-area a {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px #2f2f2f7f;
+}
+
+.top-area .top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px;
+}
+
+.navbar-right {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right .scroll {
+    padding: 0px 20px;
+}
+
+.navbar-right .login-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00c0de;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+/* hero text */
+
+.hero-text {
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 1px 1px 1px #2f2f2f7f;
+}
+
+.hero-text .contact-us {
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: #00c0de;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+
+/* search */
+.search {
+    background-color: white;
+    width: 70%;
+
+}
