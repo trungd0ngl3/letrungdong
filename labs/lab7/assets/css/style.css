@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -150,7 +151,7 @@ span {
 }
 
 .service-content {
-    border: 1px solid #2f2f2f7f;
+    border: 1px solid #d5d5d5;
     margin: 10px;
     padding: 50px;
 }
@@ -185,9 +186,9 @@ span {
     Featured cars
 /////////////////// */
 
-.featured-cars .text-container {
+.text-container {
     text-align: center;
-    margin: 30px;
+    margin: 50px;
 }
 
 .text-container h1 {
@@ -197,4 +198,165 @@ span {
 .text-container p {
     color: #575757;
     font-size: 14px;
+}
+
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car-content {
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    color: #575757;
+    margin: 15px 5px;
+}
+
+.car-content img {
+    height: 100px;
+    padding: 20px;
+}
+
+.car-content .car-specifications {
+    display: block;
+    border: 1px solid #d5d5d5;
+    border-style: solid none none none;
+    padding: 10px 20px;
+}
+
+.car-outline {
+    border: 1px solid #d5d5d5;
+}
+
+.car-price {
+    text-align: justify;
+}
+
+
+
+/* /////////////
+    Brands
+//////////// */
+
+
+.brands .container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-img {
+    margin: 10px 30px;
+}
+
+
+/* //////////
+    Contact us
+////////// */
+
+.contact {
+    text-align: center;
+}
+
+
+.contact .first-name {
+    width: 200px;
+}
+
+.contact .last-name {
+    width: 200px;
+}
+
+.contact .email,
+.message {
+    width: 450px;
+}
+
+.first-name,
+.last-name,
+.email,
+.message {
+    padding: 10px;
+    margin: 10px;
+}
+
+.submit-button {
+    padding: 5px 20px;
+    color: white;
+    background-color: #00c0de;
+    border: none;
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    background-color: #0096ad;
+}
+
+
+/* /////////////
+    Footer
+///////////// */
+.footer-basic {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #a1a1a1;
+}
+
+
+.footer-basic ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
 }
