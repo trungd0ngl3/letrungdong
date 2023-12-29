@@ -69,6 +69,10 @@ span {
     border: none;
 }
 
+.navbar-right .login-button:hover {
+    background-color: #0096ad;
+}
+
 /* hero text */
 
 .hero-text {
@@ -85,6 +89,10 @@ span {
     font-weight: bold;
     font-size: 16px;
     border: none;
+}
+
+.hero-text .contact-us:hover {
+    background-color: #0096ad;
 }
 
 /* search */
@@ -119,6 +127,10 @@ span {
     background-color: #00c0de;
     border: none;
     font-weight: bold;
+}
+
+.search .search-button:hover {
+    background-color: #0096ad;
 }
 
 /* //////////////
@@ -163,7 +175,26 @@ span {
     margin-top: 20px;
 }
 
+.service-content:hover *,
 .service-content:hover {
     background-color: #00c0de;
     color: white;
+}
+
+/* //////////////
+    Featured cars
+/////////////////// */
+
+.featured-cars .text-container {
+    text-align: center;
+    margin: 30px;
+}
+
+.text-container h1 {
+    font-size: 30px;
+}
+
+.text-container p {
+    color: #575757;
+    font-size: 14px;
 }
