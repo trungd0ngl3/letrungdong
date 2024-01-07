@@ -1,0 +1,13 @@
+@keyframes fadeFromTop {
+    from {
+        transform: translateY(-300px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* .top-area {
+    animation: fadeFromTop 0.2s;
+} */

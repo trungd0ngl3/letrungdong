@@ -17,6 +17,7 @@ body {
     width: 100%;
     background-size: cover;
     height: 700px;
+
 }
 
 /* header */
@@ -48,6 +49,7 @@ span {
     justify-content: space-between;
     align-items: center;
     padding: 30px 150px;
+    animation: fadeFromTop 0.4s ease;
 }
 
 .navbar-right {
@@ -243,13 +245,22 @@ span {
    New Cars
 ////////////////// */
 
-.slider .slide-show {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.slider {
+    width: 700px;
+    height: 300px;
+    overflow: hidden;
 }
 
+
+.slider .slide-show {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+}
+
+.car-img {}
 
 
 
