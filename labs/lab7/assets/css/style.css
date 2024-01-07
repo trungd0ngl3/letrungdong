@@ -239,6 +239,22 @@ span {
     text-align: justify;
 }
 
+/* /////////////////
+   New Cars
+////////////////// */
+
+.slider .slide-show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
 
 
 /* /////////////
