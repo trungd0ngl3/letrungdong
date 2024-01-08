@@ -182,6 +182,7 @@ p {
 }
 
 .search table {
+    width: 100%;
     text-align: center;
     padding: 10px 100px;
     margin-left: auto;
@@ -189,7 +190,8 @@ p {
 }
 
 .search select {
-    width: 200px;
+    min-width: 100px;
+    width: 150px;
     max-width: 200px;
 }
 
@@ -315,22 +317,26 @@ p {
    New Cars
 ////////////////// */
 
-.slider {
-    width: 700px;
-    height: 300px;
-    overflow: hidden;
-}
-
-
-.slider .slide-show {
+.slider .content {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    left: 50%;
+    padding: 20px 200px;
 }
 
-.car-img {}
+
+.car-img {
+    width: 500px;
+    padding: 20px;
+}
+
+.slider .car-info .detail-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00c0de;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
 
 
 
