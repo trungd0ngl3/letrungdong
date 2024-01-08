@@ -62,7 +62,7 @@ span {
     padding: 0px 20px;
 }
 
-.navbar-right .login-button {
+.login-button {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #00c0de;
@@ -75,12 +75,81 @@ span {
     background-color: #0096ad;
 }
 
+/* login form */
+
+.login-form {
+    transition: all 300ms ease-in-out 250ms;
+}
+
+
+.login-form .form-container {
+    box-shadow: 0 0 10px #9d9d9df0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #fff;
+    width: 400px;
+    margin-top: 100px;
+    padding: 30px;
+
+}
+
+.login-form .close-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.login-form form h1 {
+    text-align: center;
+}
+
+.login-form form h1,
+label,
+p {
+    margin: 20px 0px;
+    color: black;
+}
+
+.login-form .form-container form a {
+    color: #0246bd;
+    margin: 20px 0px;
+    margin-bottom: 20px;
+}
+
+.login-form .data {
+    margin: 10px 0px;
+}
+
+
+.login-form .data input {
+    width: 100%;
+    height: 30px;
+}
+
+.login-form .login-button {
+    width: 100%;
+    background-image: linear-gradient(45deg, rgb(0, 149, 255), rgb(7, 50, 120));
+}
+
+#show:checked~.login-form {
+    display: block;
+}
+
 /* hero text */
 
 .hero-text {
+    color: white;
     text-align: center;
     margin-top: 100px;
-    text-shadow: 1px 1px 1px #2f2f2f7f;
+    text-shadow: 1px 1px 5px #0000007f;
+}
+
+.hero-text p {
+    color: white;
 }
 
 .hero-text .contact-us {

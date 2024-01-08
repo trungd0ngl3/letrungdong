@@ -32,11 +32,32 @@
               <li class="scroll"><a href="#brands">BRANDS</a></li>
               <li class="scroll"><a href="#contact">CONTACT</a></li>
               <li class="login">
-                <button class="login-button" ondblclick="openLoginForm()">
-                  LOGIN
-                </button>
+                <button class="login-button" onclick="openForm()">LOGIN</button>
               </li>
             </ul>
+          </div>
+        </div>
+        <div class="login-form" id="myForm">
+          <div class="form-container">
+            <form action="#">
+              <button class="close-button" onclick="closeForm()">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+              <h1>Login</h1>
+              <div class="data">
+                <label for="username">Email or Phone</label>
+                <input type="text" placeholder="Email or Phone" />
+              </div>
+              <div class="data">
+                <label for="password">Password</label>
+                <input type="password" />
+              </div>
+              <a href="">Forgot your password?</a>
+              <br />
+              <button class="login-button" onclick="closeForm()">Login</button>
+              <br />
+              <p>Not a membership ?, <a href="">Signup now.</a></p>
+            </form>
           </div>
         </div>
         <div class="hero-text">
@@ -438,5 +459,6 @@
         </footer>
       </div>
     </section>
+    <script src="assets/script/index.js"></script>
   </body>
 </html>
