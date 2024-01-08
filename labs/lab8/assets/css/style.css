@@ -77,7 +77,8 @@ span {
 
 /* login form */
 
-.login-form * {
+.login-form {
+    display: none;
     transition: all 300ms ease-in-out 250ms;
 }
 
