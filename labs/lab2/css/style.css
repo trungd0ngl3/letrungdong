@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: 0 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* profile picture */
+.profile-picture {
+    position: relative;
+    height: 240px;
+}
+
+.picture-background {
+    margin: 0 5%;
+    width: 90%;
+    height: 240px;
+    background-color: #564ECB;
+}
+
+.picture {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.picture-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #1DAFFB;
+    clip-path: polygon(0 0, 10% 0, 50% 75%, 90% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+/* left */
+.container-left-content {
+    background: linear-gradient(180deg, #1CB1FC, #564ECB);
+    color: white;
+    height: 920px;
+}
+
+/* left h3 */
+.container-left-content h3 {
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.container-left-content h3::before {
+    content: "---------•";
+    left: 0;
+    position: absolute;
+}
+
+.container-left-content h3::after {
+    content: "•---------";
+    right: 0;
+    position: absolute;
+}
+
+/* left skills  */
+.container-left-content .skills {
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.container-left-content .skills::before {
+    content: "-------------•";
+    left: 0;
+    position: absolute;
+}
+
+.container-left-content .skills::after {
+    content: "•-------------";
+    right: 0;
+    position: absolute;
+}
+
+/* left contact me icon */
+.contactme-icon {
+    display: inline;
+    padding: 5px 10px 5px 70px;
+    margin-right: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    list-style: none;
+    background-color: #526EFF;
+}
+
+.contactme-list {
+    list-style: none;
+    font-size: 20px;
+}
+
+
+.contactme-list-item {
+    padding: 5px 0px;
+    margin: 10px 0px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.contactme-list-item p {
+    font-size: 12px;
+}
+
+.container-left-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-left-skills img {
+    margin: 5px 16px;
+    width: 48px;
+    height: 48px;
+    clip-path: circle(43%);
+}
+
+.container-left-language p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.container-left-language .progress-bar {
+    text-align: center;
+    margin: 10px 40px;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.progress-value {
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #1AB7FF;
+}
+
+.container-left-passions {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.passions-icon {
+    background-color: #1AB7FF;
+    padding: 10px;
+    margin: 0px 5px;
+    clip-path: circle(40%);
+    font-size: 24px;
+}
+
+.container-right-header {
+    background: linear-gradient(90deg, #1397ED, #3A6CD9);
+    margin: 20px 0px 20px -20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.content-title {
+    display: inline-flex;
+    align-items: center;
+    margin: 20px 0px;
+    position: relative;
+}
+
+.content-title::after {
+    display: block;
+    padding-left: 20px;
+    letter-spacing: 10px;
+    content: "••••••••••••••••••••";
+    font-size: 50px;
+    color: #1AB7FF;
+    left: 100%;
+    position: absolute;
+}
+
+.content-title h3 {
+    color: #564ECB;
+    font-size: 30px;
+}
+
+
+.title-icon {
+    background-color: #564ECB;
+    padding: 14px;
+    font-size: 24px;
+    clip-path: circle(40%);
+}
+
+.container-right-main {
+    margin: 0px 40px;
+}
+
+.container-right-main p {
+    text-align: justify;
+}
+
+.table td {
+    padding: 0px 5px;
+}
+
+.table h4 {
+    font-weight: lighter;
+}
+
+.bar {
+    width: 3px;
+    height: 40px;
+    background-color: black;
+    margin: 10px 50%;
+}

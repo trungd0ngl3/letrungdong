@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 450;
+    background-color: #00BDDA;
+    overflow: hidden;
+}
+
+
+
+body::before {
+
+    background-color: #008EA4;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: -200px;
+    position: absolute;
+    z-index: -1;
+    transform: skewY(-40deg);
+    transform-origin: right top;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px;
+}
+
+.header__navbar-left {
+    display: flex;
+    align-items: center;
+    min-width: 100px;
+}
+
+.header__navbar-left-text {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.header__navbar-icon {
+    padding-right: 10px;
+    font-size: 50px;
+}
+
+.header__navbar-list {
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px
+}
+
+.header__navbar-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+
+}
+
+.header__navbar-item-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+
+}
+
+.container {
+    display: flex;
+    height: 1200px;
+}
+
+.container-left {
+    width: 50%;
+    padding: 50px 0px 50px 150px;
+    margin-right: 100px;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+    font-weight: 500;
+}
+
+p {
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.button-download {
+    display: inline-block;
+    margin: 15px 30px 15px 0px;
+    padding: 15px 40px 15px 20px;
+    color: white;
+    background-color: black;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px white;
+    text-decoration: none;
+}
+
+.rating {
+    display: inline-block;
+    padding-right: 35px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.rating p {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.container-right {
+    padding-left: 20px;
+}
+
+.phone-picture {
+    width: 100%;
+}
+
+.fa-apple,
+.fa-play {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.fa-star {
+    margin: 5px;
+}
